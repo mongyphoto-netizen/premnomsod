@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="pageTitle">ดาวดึงส์นมเย็น | ความสดใหม่ คุณภาพของนมสดแท้ 100%</title>
+    <meta name="description" content="ดาวดึงส์นมเย็น - ร้านนมสดสไตล์คลาสสิก ย้อนยุคที่ให้ความรู้สึกอบอุ่น เป็นกันเอง เหมาะสำหรับครอบครัวและคนทำงาน">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chonburi&family=Sarabun:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="../logo.png" alt="โลโก้ดาวดึงส์นมเย็น">
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#hero" data-i18n="navHome">หน้าแรก</a></li>
+                    <li><a href="#menu" data-i18n="navMenu">เมนูแนะนำ</a></li>
+                    <li><a href="#contact" data-i18n="navContact">ติดต่อเรา</a></li>
+                </ul>
+            </nav>
+            <div class="lang-switcher">
+                <button id="btn-th" class="active">TH</button>
+                <span class="lang-sep">|</span>
+                <button id="btn-en">EN</button>
+            </div>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg" style="background-image: url('../บรรยากาศในร้าน/492549908_2527277360944944_1235157329857653281_n.jpg');"></div>
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <h1 class="headline" data-i18n="heroHeadline">ความสดใหม่ คุณภาพของนมสดแท้ 100%<br>และความทรงจำอันอบอุ่น</h1>
+            <p class="sub-headline" data-i18n="heroSub">สัมผัสบรรยากาศสไตล์คลาสสิก ย้อนยุค เป็นกันเอง เหมาะสำหรับทุกคนในครอบครัว</p>
+            <a href="#menu" class="cta-button" data-i18n="ctaMenu">ดูเมนูของเรา</a>
+        </div>
+    </section>
+
+    <!-- Featured Menu Section -->
+    <section id="menu" class="featured-menu">
+        <div class="container">
+            <div class="section-title">
+                <h2 data-i18n="menuTitle">เมนูแนะนำจากทางร้าน</h2>
+                <div class="divider"></div>
+                <p data-i18n="menuSub">คัดสรรเมนูสุดพิเศษ ทำสดใหม่ทุกวัน เพื่อคุณและคนที่คุณรัก</p>
+            </div>
+            
+            <div class="menu-grid">
+                <!-- Menu Item 1 -->
+                <div class="menu-card">
+                    <div class="menu-img-container">
+                        <img src="../เมนูร้าน/44318093_775478239458207_3282462492936110080_n.jpg" alt="เมนู 1">
+                    </div>
+                    <div class="menu-info">
+                        <h3 data-i18n="menu1Title">ขนมปังปิ้งราดช็อกโกแลต</h3>
+                        <p data-i18n="menu1Desc">ขนมปังปิ้งกรอบนอกนุ่มใน ราดซอสช็อกโกแลตเข้มข้น หวานละมุน</p>
+                        <span class="price">฿35</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 2 -->
+                <div class="menu-card">
+                    <div class="menu-img-container">
+                        <img src="../เมนูร้าน/492846847_2529634777375869_7035050521733813971_n.jpg" alt="เมนู 2">
+                    </div>
+                    <div class="menu-info">
+                        <h3 data-i18n="menu2Title">ปังเย็นนมสด</h3>
+                        <p data-i18n="menu2Desc">ปังเย็นเกล็ดหิมะนมสดแท้ 100% ท็อปปิ้งแน่นๆ หวานเย็นชื่นใจคลายร้อน</p>
+                        <span class="price">฿65</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 3 -->
+                <div class="menu-card">
+                    <div class="menu-img-container">
+                        <img src="../เมนูร้าน/493473120_2528534147485932_1438962868243656304_n.jpg" alt="เมนู 3">
+                    </div>
+                    <div class="menu-info">
+                        <h3 data-i18n="menu3Title">นมชมพูเย็นชื่นใจ</h3>
+                        <p data-i18n="menu3Desc">นมสดแท้ผสมน้ำหวานกลิ่นสละ หอมหวานชื่นใจ เมนูยอดฮิตของทุกวัย</p>
+                        <span class="price">฿40</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 4 -->
+                <div class="menu-card">
+                    <div class="menu-img-container">
+                        <img src="../เมนูร้าน/493540617_2527023530970327_8570458719034524791_n.jpg" alt="เมนู 4">
+                    </div>
+                    <div class="menu-info">
+                        <h3 data-i18n="menu4Title">ขนมปังปิ้งโรยผงโอวัลติน</h3>
+                        <p data-i18n="menu4Desc">ขนมปังปิ้งร้อนๆ โรยผงโอวัลตินและราดนมข้น หอมอร่อยเคี้ยวเพลิน</p>
+                        <span class="price">฿45</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 5 -->
+                <div class="menu-card">
+                    <div class="menu-img-container">
+                        <img src="../เมนูร้าน/44342331_775477832791581_5534039281854578688_n.jpg" alt="เมนู 5">
+                    </div>
+                    <div class="menu-info">
+                        <h3 data-i18n="menu5Title">ของทานเล่นรวมมิตร</h3>
+                        <p data-i18n="menu5Desc">นักเก็ตไก่และเกี๊ยวทอดกรอบๆ ทานคู่กับซอส อร่อยเพลินระหว่างพูดคุย</p>
+                        <span class="price">฿55</span>
+                    </div>
+                </div>
+
+                <!-- Menu Item 6 -->
+                <div class="menu-card">
+                    <div class="menu-img-container">
+                        <img src="../เมนูร้าน/492412841_2527023350970345_4918805182070823305_n.jpg" alt="เมนู 6">
+                    </div>
+                    <div class="menu-info">
+                        <h3 data-i18n="menu6Title">ขนมปังปิ้งแยมส้ม</h3>
+                        <p data-i18n="menu6Desc">ขนมปังปิ้งทาแยมส้มเปรี้ยวอมหวาน ตัดเลี่ยนได้ดี ทานคู่กับนมสดเข้ากันสุดๆ</p>
+                        <span class="price">฿35</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="menu-gallery">
+                <div class="gallery-title">
+                    <h3 data-i18n="galleryTitle">บรรยากาศร้านของเรา</h3>
+                </div>
+                <div class="gallery-grid">
+                     <img src="../บรรยากาศในร้าน/461514505_2344750892530926_8616067714999523478_n.jpg" alt="บรรยากาศร้าน">
+                     <img src="../บรรยากาศในร้าน/492518988_2527277434278270_2006123765050258299_n.jpg" alt="บรรยากาศร้าน">
+                     <img src="../บรรยากาศในร้าน/493940943_2527267730945907_8741123150059989016_n.jpg" alt="บรรยากาศร้าน">
+                     <img src="../บรรยากาศในร้าน/494147542_2529628654043148_5498278050551664507_n.jpg" alt="บรรยากาศร้าน">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Footer -->
+    <footer id="contact" class="footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <img src="../logo.png" alt="โลโก้ดาวดึงส์นมเย็น" class="footer-logo">
+                <p data-i18n="footerDesc">ร้านนมสดสไตล์คลาสสิก ย้อนยุคที่ให้ความรู้สึกอบอุ่น เป็นกันเอง เหมาะสำหรับครอบครัวและคนทำงาน</p>
+            </div>
+            <div class="footer-contact">
+                <h4 data-i18n="contactTitle">ติดต่อเรา</h4>
+                <ul>
+                    <li data-i18n="contactPhone">📞 เบอร์โทรศัพท์: 08X-XXX-XXXX</li>
+                    <li data-i18n="contactHours">🕒 เวลาเปิด-ปิด: ทุกวัน 17:00 - 23:00 น.</li>
+                    <li data-i18n="contactLocation">📍 ที่ตั้ง: ลาดดาวดึงส์ อำเภอเมือง จังหวัดเชียงราย</li>
+                </ul>
+                <div class="social-links">
+                    <a href="https://web.facebook.com/donmongy" target="_blank" aria-label="Facebook">FB</a>
+                    <a href="#" aria-label="Instagram">IG</a>
+                    <a href="#" aria-label="Line">LINE</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p data-i18n="footerCopy">&copy; 2026 ดาวดึงส์นมเย็น (Daowadung Nomyen). All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
+        const navMenu = document.querySelector('.nav-menu');
+
+        mobileMenuToggle.addEventListener('click', () => {
+            mobileMenuToggle.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+        
+        const header = document.querySelector('.header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // --- Bilingual Logic ---
+        const translations = {
+            th: {
+                pageTitle: "ดาวดึงส์นมเย็น | ความสดใหม่ คุณภาพของนมสดแท้ 100%",
+                navHome: "หน้าแรก",
+                navMenu: "เมนูแนะนำ",
+                navContact: "ติดต่อเรา",
+                heroHeadline: "ความสดใหม่ คุณภาพของนมสดแท้ 100%<br>และความทรงจำอันอบอุ่น",
+                heroSub: "สัมผัสบรรยากาศสไตล์คลาสสิก ย้อนยุค เป็นกันเอง เหมาะสำหรับทุกคนในครอบครัว",
+                ctaMenu: "ดูเมนูของเรา",
+                menuTitle: "เมนูแนะนำจากทางร้าน",
+                menuSub: "คัดสรรเมนูสุดพิเศษ ทำสดใหม่ทุกวัน เพื่อคุณและคนที่คุณรัก",
+                menu1Title: "ขนมปังปิ้งราดช็อกโกแลต",
+                menu1Desc: "ขนมปังปิ้งกรอบนอกนุ่มใน ราดซอสช็อกโกแลตเข้มข้น หวานละมุน",
+                menu2Title: "ปังเย็นนมสด",
+                menu2Desc: "ปังเย็นเกล็ดหิมะนมสดแท้ 100% ท็อปปิ้งแน่นๆ หวานเย็นชื่นใจคลายร้อน",
+                menu3Title: "นมชมพูเย็นชื่นใจ",
+                menu3Desc: "นมสดแท้ผสมน้ำหวานกลิ่นสละ หอมหวานชื่นใจ เมนูยอดฮิตของทุกวัย",
+                menu4Title: "ขนมปังปิ้งโรยผงโอวัลติน",
+                menu4Desc: "ขนมปังปิ้งร้อนๆ โรยผงโอวัลตินและราดนมข้น หอมอร่อยเคี้ยวเพลิน",
+                menu5Title: "ของทานเล่นรวมมิตร",
+                menu5Desc: "นักเก็ตไก่และเกี๊ยวทอดกรอบๆ ทานคู่กับซอส อร่อยเพลินระหว่างพูดคุย",
+                menu6Title: "ขนมปังปิ้งแยมส้ม",
+                menu6Desc: "ขนมปังปิ้งทาแยมส้มเปรี้ยวอมหวาน ตัดเลี่ยนได้ดี ทานคู่กับนมสดเข้ากันสุดๆ",
+                galleryTitle: "บรรยากาศร้านของเรา",
+                footerDesc: "ร้านนมสดสไตล์คลาสสิก ย้อนยุคที่ให้ความรู้สึกอบอุ่น เป็นกันเอง เหมาะสำหรับครอบครัวและคนทำงาน",
+                contactTitle: "ติดต่อเรา",
+                contactPhone: "📞 เบอร์โทรศัพท์: 08X-XXX-XXXX",
+                contactHours: "🕒 เวลาเปิด-ปิด: ทุกวัน 17:00 - 23:00 น.",
+                contactLocation: "📍 ที่ตั้ง: ลาดดาวดึงส์ อำเภอเมือง จังหวัดเชียงราย",
+                footerCopy: "&copy; 2026 ดาวดึงส์นมเย็น (Daowadung Nomyen). All rights reserved."
+            },
+            en: {
+                pageTitle: "Daowadung Nomyen | 100% Fresh Milk & Quality",
+                navHome: "Home",
+                navMenu: "Recommended",
+                navContact: "Contact Us",
+                heroHeadline: "100% Fresh Milk Quality<br>& Warm Memories",
+                heroSub: "Experience a classic, vintage, and friendly atmosphere suitable for everyone in the family.",
+                ctaMenu: "View Our Menu",
+                menuTitle: "Recommended Menu",
+                menuSub: "Specially selected items, made fresh daily for you and your loved ones.",
+                menu1Title: "Chocolate Toast",
+                menu1Desc: "Crispy on the outside, soft inside toast drizzled with rich chocolate sauce.",
+                menu2Title: "Fresh Milk Snow Ice",
+                menu2Desc: "100% pure fresh milk snow ice loaded with toppings, sweet and refreshing.",
+                menu3Title: "Pink Milk (Nom Chompoo)",
+                menu3Desc: "Fresh milk mixed with Sala syrup, a sweet and refreshing popular drink for all ages.",
+                menu4Title: "Ovaltine Toast",
+                menu4Desc: "Hot toast sprinkled with Ovaltine powder and topped with condensed milk.",
+                menu5Title: "Mixed Fried Snacks",
+                menu5Desc: "Crispy chicken nuggets and fried wontons served with sauce, perfect for sharing.",
+                menu6Title: "Orange Jam Toast",
+                menu6Desc: "Toast spread with sweet and sour orange jam, pairs perfectly with a cup of fresh milk.",
+                galleryTitle: "Our Atmosphere",
+                footerDesc: "A classic, vintage-style fresh milk shop with a warm, friendly atmosphere. Perfect for families and working professionals.",
+                contactTitle: "Contact Us",
+                contactPhone: "📞 Phone: 08X-XXX-XXXX",
+                contactHours: "🕒 Hours: Daily 17:00 - 23:00",
+                contactLocation: "📍 Location: Lan Daowadung, Mueang District, Chiang Rai",
+                footerCopy: "&copy; 2026 Daowadung Nomyen. All rights reserved."
+            }
+        };
+
+        const btnTh = document.getElementById('btn-th');
+        const btnEn = document.getElementById('btn-en');
+        const elementsToTranslate = document.querySelectorAll('[data-i18n]');
+
+        function setLanguage(lang) {
+            elementsToTranslate.forEach(element => {
+                const key = element.getAttribute('data-i18n');
+                if (translations[lang][key]) {
+                    element.innerHTML = translations[lang][key];
+                }
+            });
+
+            // Update html lang attribute and meta description
+            document.documentElement.lang = lang;
+            if(lang === 'en') {
+                document.querySelector('meta[name="description"]').setAttribute("content", "Daowadung Nomyen - A classic, vintage-style fresh milk shop with a warm, friendly atmosphere.");
+            } else {
+                document.querySelector('meta[name="description"]').setAttribute("content", "ดาวดึงส์นมเย็น - ร้านนมสดสไตล์คลาสสิก ย้อนยุคที่ให้ความรู้สึกอบอุ่น เป็นกันเอง เหมาะสำหรับครอบครัวและคนทำงาน");
+            }
+
+            // Update active button state
+            if (lang === 'th') {
+                btnTh.classList.add('active');
+                btnEn.classList.remove('active');
+            } else {
+                btnEn.classList.add('active');
+                btnTh.classList.remove('active');
+            }
+        }
+
+        btnTh.addEventListener('click', () => setLanguage('th'));
+        btnEn.addEventListener('click', () => setLanguage('en'));
+
+    </script>
+</body>
+</html>
